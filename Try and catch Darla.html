@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="styles.css">
+<meta charset="utf-8">
+<style>
+* {
+box-sizing: border-box;
+}
+h1 {
+	text-align: center;
+	font-size: 8rem;
+	}
+.darla-face {
+	display: block;
+	margin: 0 auto;
+	width:450px;
+	height: 400px;
+	max-width: 100%
+	height: 100%;
+	border-radius: 50%;
+	}
+.dotted {
+	height: 25px;
+	width: 25px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: block;
+	margin: 30px auto;
+	border: 2px solid black;
+	}
+.break {
+	display: block;
+	height: 250px;
+	width: 250px;
+	display: block;
+	margin: 0 auto;
+	}
+.darla-object:hover {
+	animation: darla-move 500ms forwards;
+	}
+@keyframes darla-move {
+	0% {
+	transform: translateX(0%);
+	}
+	50% {
+	transform: translateX(180%)
+	}
+	75% {
+	transform: translateX(0%)
+	}
+	100% {
+	transform: translateX(180%);
+	}
+	}
+.darla-object {
+	position: relative;
+	cursor: grab;
+	height: 450px;
+	width: 550px;
+	background-color: black;
+	border-radius: 50%;
+	margin: 0 0 0 5%;
+	}
+.darla-head {
+	cursor: grab;
+	position: absolute;
+	height: 350px;
+	width: 350px;
+	background-color: black;
+	border-radius: 50%;
+	margin: -40% 0 0 15%
+	}
+.eye1 {
+	cursor: grab;
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	display: inline;
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 50%;
+	margin: 10% 0 0 18%;
+	}
+.eye2 {
+	cursor: grab;
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	display: inline;
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 50%;
+	margin: 10% 0 0 55%;
+</style>
+<body>
+<h1>This is Darla Boots</h1>
+<img class="darla-face" src="https://i.imgur.com/98Imq6V.jpg">
+<br>
+<div class="dotted"></div>
+<div class="dotted"></div>
+<div class="dotted"></div>
+<div class="dotted"></div>
+<div class="dotted"></div>
+<h1>She is the fastest dog in the west</h1>
+<div class="dotted"></div>
+<div class="dotted"></div>
+<div class="dotted"></div>
+<div class="dotted"></div>
+<div class="dotted"></div>
+<div class="dotted"></div>
+<h1>Wanna see how Fast she is?</h1>
+<div class="dotted"></div>
+<div class="dotted"></div>
+<div class="dotted"></div>
+<div class="dotted"></div>
+<div class="dotted"></div>
+<div class="dotted"></div>
+<h1>Try and catch her</h1>
+<div class="dotted"></div>
+<div class="dotted"></div>
+<div class="dotted"></div>
+<div class="dotted"></div>
+<div class="dotted"></div>
+<div class="dotted"></div>
+<div class="break"></div>
+<div class="darla-object">
+	<div class="darla-head">
+	<div class="eye1">
+		<div class="pupil1"></div>
+	</div>
+	<div class="eye2">
+		<div class="pupil2"></div>
+	</div>
+	</div>
+</div>
+</body>
+
+
+</html>
